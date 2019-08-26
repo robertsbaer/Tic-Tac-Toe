@@ -6,12 +6,12 @@ Make the game Tic-Tac-Toe using HTML, CSS, and JavaScript!
 
 ## Prerequisites
 
-* Semantic HTML
-* CSS styling and layout
-* CSS Grid
-* JavaScript programming
-* Working with the DOM
-* JavaScript events
+- Semantic HTML
+- CSS styling and layout
+- CSS Grid
+- JavaScript programming
+- Working with the DOM
+- JavaScript events
 
 ## Instructions
 
@@ -41,13 +41,12 @@ Below your 3x3 grid, you should have a 'reset' button that will reset the game.
 
 **Bonus requirements:**
 
-* Have a message somewhere in your UI to show who the current player is (i.e.
-    `red's turn` or `blue's turn`)
+- Have a message somewhere in your UI to show who the current player is (i.e.
+  `red's turn` or `blue's turn`)
 
 **Additional Resources:**
 
-* [MDN Pointer
-    Events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
+- [MDN Pointer Events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
 
 ### Phase 2: Dumbly-scored Version
 
@@ -59,9 +58,11 @@ The goal of this phase is to make it so that players don't have to manually
 score the game. Instead, you're going to write some code that will check the
 board with every turn:
 
-* If a player has won, display a message with which player won the game (i.e. red or blue)
-* If all the squares are filled in and no player has won yet, display a message saying it's a tie
-* In both cases, the users should be able to reset the game
+- If a player has won, display a message with which player won the game (i.e.
+  red or blue)
+- If all the squares are filled in and no player has won yet, display a message
+  saying it's a tie
+- In both cases, the users should be able to reset the game
 
 In games where there are a limited number of winning combinations, a great
 first-step to auto-calculating the winner is to hold those winning combinations
@@ -75,7 +76,9 @@ also have to update some representation of the gameboard in your game code.
 
 ## Plagiarism
 
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+Take a moment to refamiliarize yourself with the
+[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
+Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
