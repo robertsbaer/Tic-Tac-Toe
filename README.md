@@ -15,9 +15,9 @@ Make the game Tic-Tac-Toe using HTML, CSS, and JavaScript!
 
 ## Instructions
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Fulfill the listed requirements.
+1. Read through and fulfill the listed requirements.
+1. You will create a new repo on your personal Github account for this project.
+1. Submit this project with an issue on this repo.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
