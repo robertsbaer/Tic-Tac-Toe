@@ -161,24 +161,62 @@
     }
 }
 
-body{
-    background-color: azure;
+body {
     text-align: center;
-}
+	background-image: url(https://image.shutterstock.com/image-vector/noughts-crosses-hand-drawn-seamless-600w-1309726228.jpg);
+    }
 
-#nineSquare{
-    width: 600px;
-    height: 600px;
-    background-color: burlywood;
+.title{
+	width: 450px;
+	height: 100px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 20px;
+}
+    
+    
+h2 {
     margin: auto;
-    margin-top: 100px;
+}
+    
+    
+.container {
     display: flex;
-    flex-wrap: wrap;
+	margin: auto;
 }
 
-.onebox{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+.column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+}
+    
+    
+.square {
+    border: 2px solid red;
+	color: white;
+    height: 33%;
+    width: 32.44%;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+	background-color: black;
+	cursor: pointer;
+
+}
+    
+    
+#reset {
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+	height: 40px;
+    margin: 10px;
 }
